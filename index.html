@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+<meta charset="utf-8">
+<title>Movie Trailers | Derek Kelmanson</title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<body>
+	<header id="top_header">
+		<div class="wrapper">
+			<h1 class="logo">Best Movie Trailers of All Time</h1>
+			<nav id="main_nav">
+				<a href="#">Movies</a>
+				<a href="#">TV Shows</a>
+				<a href="#">Celebs</a>
+				<a href="#">News</a>
+			</nav>
+		</div>
+	</header>
+	
+	
+	
+	
+	<div id="mainContent">
+	<p id="helloText">?</p>
+	<button id="clickButton" class="buttonStyle">click me</button>
+	</div>
+
+
+
+
+
+
+
+<script> 
+	var myButton = document.getElementById("clickButton");
+	var myText = document.getElementById("helloText");
+	
+	myButton.addEventListener('click', doSomething, false)
+	
+	function doSomething() {
+		myText.textContent = "hello, world!";
+	}
+</script>
+
+</body>
+</html>
